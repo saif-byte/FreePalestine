@@ -1,0 +1,7 @@
+<div class="date">
+  @for (date of surroundingDates; track date) {
+  <div class="single-date">{{ date.getDate() }}</div>
+  } @empty {
+  <span>Empty list of users</span>
+  }
+</div>
